@@ -19,11 +19,13 @@ namespace DemoSurvey.Controllers
             try
             {
                 // Procesa la respuesta de la encuesta aquí (por ejemplo, guarda en la base de datos)
-                Console.WriteLine($"Respuesta recibida: ${answer}");
+                //Console.WriteLine($"Respuesta recibida: ${answer}");
+                System.Diagnostics.Trace.TraceInformation($"Respuesta recibida: ${answer}");
                 return Ok(new { mensaje = "Answer received successfully" });
             }
             catch (Exception ex) {
-                Console.WriteLine($"Error: ${ex.Message}");
+                //Console.WriteLine($"Error: ${ex.Message}");
+                System.Diagnostics.Trace.TraceError($"Respuesta recibida: ${answer}");
                 return BadRequest("answer is null");
             }
         }
