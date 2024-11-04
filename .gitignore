@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DemoSurvey/obj/Debug/net6.0/DemoSurvey.AssemblyInfo.cs
+/.vs/DemoSurvey/FileContentIndex/9b20c028-6643-4810-86c7-ab32e275c229.vsidx
+/DemoSurvey/obj/Debug/net6.0/DemoSurvey.AssemblyInfoInputs.cache
